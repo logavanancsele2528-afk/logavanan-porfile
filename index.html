@@ -1,110 +1,344 @@
+```html
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logavanan | Developer Portfolio</title>
+
+    <title>Foodie Restaurant</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-```
-<!-- Navigation -->
-<header>
-    <nav class="navbar">
-        <div class="logo">L.</div>
+    <!-- NAVBAR -->
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="navbar">
+
+        <div class="logo">
+            Food<span>ie</span>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="order-btn">
+            Order Now
+        </button>
+
+    </header>
 
 
-<!-- Hero -->
-<main>
+    <!-- HERO -->
 
-    <section id="home" class="hero">
+    <section class="hero">
 
-        <div class="hero-text">
+        <div class="hero-content">
 
-            <p class="hello">HELLO, I'M</p>
+            <p class="tagline">
+                FRESH & TASTY
+            </p>
 
-            <h1>Logavanan</h1>
-
-            <h2>Frontend Developer</h2>
+            <h1>
+                Delicious Food
+                <br>
+                <span>Made With Love ❤️</span>
+            </h1>
 
             <p class="description">
-                I build clean, responsive and user-friendly
-                websites using modern web technologies.
+                Enjoy fresh, delicious and tasty food
+                prepared by our expert chefs.
             </p>
 
             <div class="hero-buttons">
-                <a href="#projects" class="primary-btn">
-                    View Projects
-                </a>
 
-                <a href="#contact" class="secondary-btn">
-                    Contact Me
-                </a>
+                <button class="main-btn">
+                    Order Now
+                </button>
+
+                <button class="menu-btn">
+                    View Menu
+                </button>
+
             </div>
 
         </div>
 
-        <div class="hero-card">
-            <div class="profile-circle">L</div>
 
-            <h3>Frontend Developer</h3>
+        <div class="hero-food">
 
-            <p>HTML • CSS • JavaScript</p>
+            <div class="food-circle">
+                🍔
+            </div>
+
+            <div class="food-card card-left">
+                ⭐ 4.9 Rating
+            </div>
+
+            <div class="food-card card-right">
+                🔥 Best Seller
+            </div>
+
         </div>
 
     </section>
 
 
-    <!-- About -->
-    <section id="about" class="section">
+    <!-- MENU -->
 
-        <p class="section-title">ABOUT ME</p>
+    <section class="menu" id="menu">
 
-        <h2>Who I Am</h2>
+        <div class="section-title">
 
-        <div class="about-grid">
+            <p>OUR MENU</p>
 
-            <div class="about-text">
-                <p>
-                    I am a passionate student interested in
-                    web development and technology.
-                </p>
+            <h2>
+                Popular Dishes
+            </h2>
 
-                <p>
-                    I enjoy creating responsive websites,
-                    learning new technologies and improving
-                    my programming skills.
-                </p>
+        </div>
+
+
+        <div class="menu-grid">
+
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    🍕
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Cheese Pizza</h3>
+
+                        <span>$12</span>
+
+                    </div>
+
+                    <p>
+                        Fresh cheese with delicious
+                        tomato sauce.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
             </div>
 
-            <div class="about-info">
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    🍔
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Classic Burger</h3>
+
+                        <span>$10</span>
+
+                    </div>
+
+                    <p>
+                        Juicy burger with fresh
+                        vegetables and cheese.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    🍝
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Italian Pasta</h3>
+
+                        <span>$14</span>
+
+                    </div>
+
+                    <p>
+                        Creamy pasta with special
+                        Italian sauce.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    🍗
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Fried Chicken</h3>
+
+                        <span>$15</span>
+
+                    </div>
+
+                    <p>
+                        Crispy and juicy chicken
+                        made fresh.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    🍰
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Chocolate Cake</h3>
+
+                        <span>$8</span>
+
+                    </div>
+
+                    <p>
+                        Soft chocolate cake with
+                        creamy topping.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="food-item">
+
+                <div class="food-image">
+                    ☕
+                </div>
+
+                <div class="food-info">
+
+                    <div class="food-name">
+
+                        <h3>Hot Coffee</h3>
+
+                        <span>$5</span>
+
+                    </div>
+
+                    <p>
+                        Freshly brewed hot coffee
+                        for your perfect day.
+                    </p>
+
+                    <button>
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+
+            <div>
+                👨‍🍳
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="tagline">
+                ABOUT US
+            </p>
+
+            <h2>
+                We Cook With
+                <span>Passion</span>
+            </h2>
+
+            <p>
+                Foodie Restaurant is a place where
+                delicious food meets great service.
+                Our chefs use fresh ingredients to
+                prepare every dish with love.
+            </p>
+
+
+            <div class="features">
 
                 <div>
-                    <span>Education</span>
-                    <strong>Computer Science</strong>
+                    <strong>10+</strong>
+                    <span>Years Experience</span>
                 </div>
 
                 <div>
-                    <span>Location</span>
-                    <strong>India</strong>
+                    <strong>50+</strong>
+                    <span>Food Items</span>
                 </div>
 
                 <div>
-                    <span>Interest</span>
-                    <strong>Web Development</strong>
+                    <strong>5K+</strong>
+                    <span>Happy Customers</span>
                 </div>
 
             </div>
@@ -114,37 +348,48 @@
     </section>
 
 
-    <!-- Skills -->
-    <section id="skills" class="section skills-section">
+    <!-- WHY US -->
 
-        <p class="section-title">MY SKILLS</p>
+    <section class="why-us">
 
-        <h2>Technologies I Use</h2>
+        <div class="section-title">
 
-        <div class="skills-grid">
+            <p>WHY FOODIE?</p>
 
-            <div class="skill-card">
-                <span>01</span>
-                <h3>HTML</h3>
-                <p>Building structured web pages.</p>
+            <h2>
+                Why Choose Us?
+            </h2>
+
+        </div>
+
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <div>🚀</div>
+                <h3>Fast Delivery</h3>
+                <p>
+                    Hot food delivered quickly
+                    to your doorstep.
+                </p>
             </div>
 
-            <div class="skill-card">
-                <span>02</span>
-                <h3>CSS</h3>
-                <p>Creating responsive and attractive designs.</p>
+            <div class="why-card">
+                <div>🥬</div>
+                <h3>Fresh Ingredients</h3>
+                <p>
+                    We always use fresh and
+                    quality ingredients.
+                </p>
             </div>
 
-            <div class="skill-card">
-                <span>03</span>
-                <h3>JavaScript</h3>
-                <p>Adding interaction and functionality.</p>
-            </div>
-
-            <div class="skill-card">
-                <span>04</span>
-                <h3>Git & GitHub</h3>
-                <p>Managing and publishing projects.</p>
+            <div class="why-card">
+                <div>⭐</div>
+                <h3>Best Quality</h3>
+                <p>
+                    Great taste and excellent
+                    quality every time.
+                </p>
             </div>
 
         </div>
@@ -152,117 +397,53 @@
     </section>
 
 
-    <!-- Projects -->
-    <section id="projects" class="section">
+    <!-- CONTACT -->
 
-        <p class="section-title">MY WORK</p>
+    <section class="contact" id="contact">
 
-        <h2>Recent Projects</h2>
+        <div>
 
-        <div class="projects-grid">
+            <p class="tagline">
+                HAVE A QUESTION?
+            </p>
 
-            <article class="project-card">
-
-                <div class="project-number">01</div>
-
-                <h3>Personal Portfolio</h3>
-
-                <p>
-                    A responsive portfolio website designed
-                    using HTML and CSS.
-                </p>
-
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                </div>
-
-            </article>
-
-
-            <article class="project-card">
-
-                <div class="project-number">02</div>
-
-                <h3>Calculator</h3>
-
-                <p>
-                    A simple calculator application created
-                    using JavaScript.
-                </p>
-
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-
-            </article>
-
-
-            <article class="project-card">
-
-                <div class="project-number">03</div>
-
-                <h3>To-Do List</h3>
-
-                <p>
-                    A task management application that allows
-                    users to manage daily tasks.
-                </p>
-
-                <div class="tags">
-                    <span>JavaScript</span>
-                    <span>CSS</span>
-                </div>
-
-            </article>
+            <h2>
+                Ready To Taste
+                Something Delicious?
+            </h2>
 
         </div>
+
+        <button class="main-btn">
+            Contact Us →
+        </button>
 
     </section>
 
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
+    <!-- FOOTER -->
 
-        <p class="section-title">CONTACT</p>
+    <footer>
 
-        <h2>Let's Connect</h2>
+        <div class="footer-logo">
+            Food<span>ie</span>
+        </div>
+
+        <div class="social">
+
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+
+        </div>
 
         <p>
-            Interested in working together?
-            Feel free to contact me.
+            © 2026 Foodie Restaurant
         </p>
 
-        <div class="contact-links">
-
-            <a href="mailto:yourname@gmail.com">
-                Email
-            </a>
-
-            <a href="https://github.com/logavanancsele2528-afk"
-               target="_blank">
-                GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/"
-               target="_blank">
-                LinkedIn
-            </a>
-
-        </div>
-
-    </section>
-
-</main>
-
-
-<!-- Footer -->
-<footer>
-    <p>© 2026 Logavanan. Built with HTML & CSS.</p>
-</footer>
-```
+    </footer>
 
 </body>
+
 </html>
+```
